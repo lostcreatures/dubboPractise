@@ -1,4 +1,4 @@
-package com.dubbo.com.utils;
+package com.dubbo.common.utils;
 
 public class StringUtils {
     public static void main(String[] args) {
