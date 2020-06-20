@@ -7,4 +7,9 @@ public class HelloWorldProvider implements Service {
     public String doService(String param) {
         return "hello, " + param;
     }
+
+    @Override
+    public String callService(String param) {
+        return param;
+    }
 }
